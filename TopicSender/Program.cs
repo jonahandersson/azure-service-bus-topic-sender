@@ -12,8 +12,8 @@ namespace TopicSender
   
     class Program
     {
-        const string ServiceBusConnectionString = "Endpoint=sb://az-devjonah.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=pxtosfZg/4Ad7hp7Lw2ihQpPShJ3D7zz+Xbfv8CCwGA=";
-        const string TopicName = "azdevtesttopic";
+        const string ServiceBusConnectionString = "<Your Service Bus Connection String>";
+        const string TopicName = "azdevtesttopic"; //name of your topic 
         static ITopicClient topicClient;
 
 
